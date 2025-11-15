@@ -21,4 +21,4 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # git clone https://github.com/timsaya/luci-app-bandix package/luci-app-bandix
 # git clone https://github.com/timsaya/openwrt-bandix package/openwrt-bandix
 
-src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main
+echo 'src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main' >>feeds.conf.default
